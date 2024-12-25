@@ -1,0 +1,15 @@
+probe normal loss: 2.54164719581604
+probe wall loss: 5.210269927978516
+probe wall_other loss: 4.9613237380981445
+probe expert loss: 36.00632858276367
+Total Trainable Params: 57,828
+
+
+Train Command:
+python train.py --data_path /scratch/DL24FA/train (will run for 9 epochs)
+
+# If for specefic epochs
+python train.py --data_path /scratch/DL24FA/train --epochs num_epochs
+
+
+
